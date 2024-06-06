@@ -1,5 +1,14 @@
 # Changelog
 
+## [1.0.2](https://github.com/elfhosted/charts/compare/v1.0.1...v1.0.2) (2024-05-28)
+
+
+### Bug Fixes
+
+* add necessary oauth details for premiumize ([ae7ff84](https://github.com/elfhosted/charts/commit/ae7ff84bf849290b2e8e30a34ec0289664121c61))
+* auto-restart mediafusion when env changes ([c475918](https://github.com/elfhosted/charts/commit/c47591832881181a401b7624edbb21dad00fd2fa))
+* use correct port for redisinsight ([4a542a5](https://github.com/elfhosted/charts/commit/4a542a507cfc8f2f277f72173ff0cdfac37fa605))
+
 ## [1.0.1](https://github.com/elfhosted/charts/compare/v1.0.0...v1.0.1) (2024-05-23)
 
 
