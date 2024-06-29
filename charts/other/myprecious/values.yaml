@@ -2682,7 +2682,7 @@ filebrowser:
     app.elfhosted.com/name: filebrowser
   image:
     repository: ghcr.io/geek-cookbook/filebrowser
-    tag: 2.23.0@sha256:b44792453980ab6fe59f14211024fcc5de24516112f62fb31ca1f3cc00c832c6
+    tag: 2.27.0@sha256:7fe99bd50a412d691d14574b851df9beab1165432029be8ee2975ea9b54e596a
   envFrom:
   - configMapRef:
       name: filebrowser-env      
@@ -3286,7 +3286,7 @@ filebrowser:
       enabled: false
   initContainers:
     setup:
-      image: ghcr.io/geek-cookbook/filebrowser:2.23.0@sha256:b44792453980ab6fe59f14211024fcc5de24516112f62fb31ca1f3cc00c832c6
+      image: ghcr.io/geek-cookbook/filebrowser:2.27.0@sha256:7fe99bd50a412d691d14574b851df9beab1165432029be8ee2975ea9b54e596a
       # 2.23.0@sha256:1db0f0114a169ea2a877d75c47903a6d01534340421948845d5e298c7ac7ceb4 is the last good version for TFA
       imagePullPolicy: IfNotPresent
       command:
